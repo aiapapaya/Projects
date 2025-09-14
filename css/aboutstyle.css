@@ -1,0 +1,233 @@
+
+
+
+h2{
+    font-family: 'Shrikhand',serif;
+    font-size: 2em;
+    font-weight: 100;
+    color: #2c2929;
+    padding: .2em 0;
+}
+
+
+
+.aboutus {
+    font-size: 15px;
+    color: #050505;
+    line-height:  1.5;
+    padding: 0 20px;
+    top: 8em;
+    position: relative;
+    padding-bottom: 5em;
+    text-align: center;
+    
+     
+}
+.theproject{
+    text-align: left;
+}
+
+.start{
+    font-family: 'Times New Roman', Times, serif;
+    clear: both;
+    position: relative;
+    top: 4em;
+    margin: 1em 20px;
+    line-height:  1.5;
+    font-size: 15px;
+}
+
+.aboutus img {
+    margin-right: 1em;
+    max-width: 350px;
+    border: 2px solid #0097b0 ;
+    border-radius: 100px ;
+    margin-left: 0px;
+    
+    
+}
+
+
+.moreaboutus {
+    font-size: 15px;
+    color: #050505;
+    line-height:  1.5;
+    padding: 0 20px;
+    top: 7em;
+    position: relative;
+    padding-bottom: 5em;
+      
+}
+
+.topping {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bolder;
+      
+}
+
+.moreaboutus li {
+    list-style-type: circle;
+}
+
+.moreaboutus h3{
+    font-size: 1.5em;
+    font-weight: 60px;
+    color: #0097b0;
+    margin-top: 1em;
+}
+
+.moremoreaboutus {
+    font-size: 15px;
+    color: #050505;
+    line-height:  1.5;
+    padding: 0 20px;
+    top: 7em; 
+    position: relative;
+    padding-bottom: 5em;
+}
+.thetop {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bolder;
+} 
+
+.moremoreaboutus li {
+    list-style-type: disc;
+}
+
+.moremoreaboutus span {
+    font-weight: bold;
+    color: #53bed1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.amplify {
+    padding: 1em 0 3em 0;
+    font-family: monospace ;
+    font-size: 25px;
+    color: #0097b0;
+    line-height:  1.2;
+    padding: 1 20px;
+    position: relative;
+    font-weight: 600;
+}
+.crews h2{
+   text-align: center;
+   padding-bottom:1em ;
+}
+
+.crew{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    margin-bottom: 2em;
+}
+.crew img {
+    padding: 0 20px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-right: 0px;   
+}
+.crew .names{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.names h3{
+    color: #0097b0;
+}
+.names p{
+text-align: center;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .aboutus{
+        font-size: 1.15em;
+    padding-top: .1em;
+        width: 90%;
+        margin: auto;
+    }
+    .aboutus img {
+        width: 60%;
+        max-width: initial;
+        width: 400px;
+        float: left;
+        margin-right: 2em;
+  
+    }
+    .moreaboutus, .moremoreaboutus{
+        font-size: 1.15em;
+        width: 90%;
+        margin: auto;
+    }
+    .amplify{
+        font-size: 28px;
+        
+    }
+    .crews{
+    width: 90%;
+    margin: auto;
+    }
+   
+    .start{
+        font-size: 1.15em;
+        width: 85%;
+        margin: auto;
+    }
+   
+}
+
+
+
+@media screen and (min-width: 1050px) {
+    
+    .aboutus{
+        top: 10em;
+        width: 85%;
+        margin: auto;
+    }
+    .aboutus img{
+        max-width: initial;
+        width: 500px;
+
+    }
+    
+    .start{
+        width: 77%;
+        margin-top: 5em;
+    }
+    .moreaboutus, .moremoreaboutus{
+        width: 80%;
+    }
+    .crew{
+       flex-direction: column;
+       margin-top: 5em;
+    }
+    .crews{
+        display: flex;
+  
+    }
+    .crews h2{
+        position:absolute;
+        left: 38%;
+      
+    }
+    .crews h3{
+        text-align: center;
+    }
+
+    .amplify{
+        text-align: center;
+    }
+
+}   
+@media screen and (min-width: 1400px) { 
+    .start{
+        top:5em;
+    }
+}

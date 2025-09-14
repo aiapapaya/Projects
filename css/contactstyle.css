@@ -1,0 +1,277 @@
+/*CONTACT US PAGE*/
+#contentt{
+    padding-top: 5em;
+}
+.mainn{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.contact-container{
+    width: 75%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px -4px #9e9e9e;
+    border-radius: 5px;
+}
+.contact-container .contact-image{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.contact-container .contact-image::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #c1e8ef;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%,0% 100%);
+}
+.contact-container .contact-image img{
+    margin-left:50px;
+    height: 400px;
+    z-index: 1;
+
+}
+.contact-container .form-area{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-container .form-area h2{
+    font-size: 1.7em;
+    font-family: 'Shrikhand', cursive;
+    font-weight: lighter;
+    color: #0097b0;
+
+}
+.contact-container .form-area form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.contact-container .form-area form input{
+    padding: 15px 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+}
+
+.contact-container .form-area form input::placeholder,
+.contact-container .form-area form textarea::placeholder{
+    color: #999;
+    letter-spacing: 1px;
+    font: 14px sans-serif;
+}
+.contact-container .form-area form input:hover::placeholder,
+.contact-container .form-area form textarea:hover::placeholder{
+    color: #0097b0;
+}
+
+.contact-container .form-area form input:focus,
+.contact-container .form-area form textarea:focus{
+    border-bottom:1px solid #0097b0 ;
+    animation: border .3s ease;
+}
+@keyframes border{
+    0%{
+     width: 0%;   
+    }
+    100%{
+        width: 100%;
+    }
+}
+.contact-container .form-area form textarea{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    resize: none;
+    padding: 1px 5px;
+    margin-bottom: 5px;
+
+}
+.contact-container .form-area form button{
+    margin-top: 10px;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 30px;
+    background-color: #0097b0;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+.contact-container .form-area form button:hover{
+    transform: scale(1.1);
+}
+.contact-container .form-area .social-icon{
+    margin-top: 3em;
+}
+.contact-container .form-area .social-icon .facebook:hover,
+.contact-container .form-area .social-icon .instagram:hover,
+.contact-container .form-area .social-icon .twitter:hover,
+.contact-container .form-area .social-icon .youtube:hover{
+    transform: scale(1.2);
+}
+.contact-container .form-area .social-icon .facebook{
+    color: #3b5998;
+}
+.contact-container .form-area .social-icon .instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-container .form-area .social-icon .twitter{
+    color: #000;
+}
+.contact-container .form-area .social-icon .youtube{
+    color: #fd5949;
+}
+
+#donation-section {
+    width: 75%;
+    margin: auto;
+}
+
+#donation-section h2 {
+    font: 2em 'Shrikhand';
+    padding-bottom: 1em;
+    color: #0097b0;
+    text-align: center;
+}
+
+
+#donation-section p {
+    margin-bottom: 15px;
+    font-size: 1.15em;
+}
+
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0097b0;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.donate-button:hover {
+    background-color: #c45a08;
+}
+
+
+@media (max-width:900px) {
+    .mainn .contact-container{
+        width: 98%;
+        height: auto;
+        flex-direction: column;
+        margin: 20px 0 5px 0;
+        box-shadow: none;
+    }
+    .mainn .contact-container .contact-image{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .mainn .contact-container .contact-image::before{
+        height: 300px;
+        clip-path:polygon(0% 0%, 100% 0, 100% 81%, 50% 100%, 0 81%);
+    }
+    .mainn .contact-container .contact-image img{
+        height: 200px;
+        margin-left: 0px;
+        margin-top: 3px;
+    }
+    .mainn .contact-container .form-area{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .mainn .contact-container .form-area h2{
+        font-size: 25px;
+    }
+    .mainn .contact-container .form-area form{
+        width: 90%;
+        margin-top: 15px;
+    }
+    .mainn .form-area .social-icon{
+        margin: 15px 0px;
+    }
+    #donation-section {
+        width: 95%;
+    }
+    
+    #donation-section h2 {
+        font: 1.4em 'Shrikhand';
+       
+    }
+    
+    
+
+}
+@media (max-width:900px) and (min-width:650px){
+    .mainn{
+        top: 5em;
+    }
+    .mainn .contact-container {
+        margin: 20px 0 70px 0;
+    }
+    .mainn .contact-container .contact-image{
+        height: 300px;
+    }
+    .mainn .contact-container, #donation-section{
+        width: 75%;
+    }
+    .mainn .contact-container .contact-image img{
+        height: 250px;
+        margin-left: 30px;
+    }
+    .mainn .contact-container .form-area form{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .mainn .contact-container .form-area{
+        margin-top: 10px;
+    }
+    #donation-section h2 {
+        font: 1.6em 'Shrikhand';
+       
+    }
+}
+@media (max-width:1200px) and (min-width:900px){
+    .mainn .contact-container{
+        height: 85vh;
+        width: 85%;
+        margin: 4em 0 6em 0;
+    }
+    .mainn .contact-container .contact-image img{
+        margin-left: 20px;
+        height: 320px;
+    }
+    .mainn .contact-container .form-area h2{
+        font-size: 30px;
+    }
+    #donation-section {
+        width: 85%;
+    }
+    
+    #donation-section h2 {
+        font: 1.8em 'Shrikhand';
+    }
+    
+}
+

@@ -1,0 +1,134 @@
+
+.inner-reality{
+    width: 96%;
+    margin: auto;
+    padding: 2em 0.5em;
+}
+
+.reality img, .consequences img {
+    width: 100%;
+    border:2px solid #0097b0;
+}
+
+.reality{
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+.reality h2, .consequences h2, .solutions h2,.save h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #0097b0;
+    text-align: center;
+    margin: 1em auto;
+}
+
+.consequences{
+    padding-bottom: 2em;
+}
+
+.consequences1, .solutions1{
+    width: 96%;
+    padding-bottom: 3em;
+    margin: auto 1em;
+}
+
+
+.consequences1 ol {
+    list-style: none; /* Remove default list styling */
+}
+
+.consequences1 ol li {
+    position: relative;
+    padding-left: 40px;
+}
+
+.consequences1 ol li::before {
+    content: '\25A0'; 
+    color: #0097b0; 
+    position: absolute;
+    left: 0;
+}
+.solutions a{
+    color: #0097b0;
+}
+.solutions a:hover{
+    color: chocolate;
+}
+.save{
+    width: 85%;
+    margin: auto;
+}
+
+
+
+@media screen and (min-width: 850px) {
+    .consequences, .reality, .solutions{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        
+    }
+    .consequences img, .reality img{
+        width: 350px;
+        height: 350px;
+        margin: auto;
+        margin-left: 1em;
+    }
+    .reality img,.consequences img{
+        margin-top: 9em;
+       
+    }
+    
+    .reality h2, .consequences h2, .solutions h2, .save h2{
+        font-size: 30px;
+    }
+    .reality p, .consequences p, .solutions p{
+        font-size: 17px;
+    }
+    .consequences1 li{
+        font-size: 1.05em;
+        padding: .5em;
+    }
+    .save{
+        width: 60%;
+        margin: auto;
+    }
+    
+}
+@media screen and (min-width: 1000px) {
+    .consequences, .reality, .solutions{
+        width: 85%;
+        
+    }
+    .consequences img, .reality img{
+        width: 450px;
+    }
+    .consequences img{
+        height: 330px;
+    }
+    .reality h2, .consequences h2, .solutions h2, .save h2{
+        font-size: 32px;
+    }
+    .reality p, .consequences p, .solutions p{
+        font-size: 18px;
+    }
+    .consequences1 li{
+        font-size: large;
+        padding: .7em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .reality{
+        padding-top: 7em;
+    }
+    .consequences, .reality, .solutions{
+        width: 75%;  
+    }
+    .inner-reality, .consequences1{
+        width: 48%;
+    }
+    .consequences img{
+        margin-left: 4em;
+    }
+}
