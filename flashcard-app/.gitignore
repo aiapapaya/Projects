@@ -8,15 +8,19 @@ local.properties
 .cxx/
 captures/
 .externalNativeBuild/
+
 # OS/tooling
 .DS_Store
 Thumbs.db
 *.keystore
 *.jks
+
 # Logs
 *.log
 
-# large media
+# Media (too big for GitHub)
 *.mp4
 *.mov
 *.avi
+*.apk
+*.zip
