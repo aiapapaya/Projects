@@ -15,3 +15,8 @@ Thumbs.db
 *.jks
 # Logs
 *.log
+
+# large media
+*.mp4
+*.mov
+*.avi
