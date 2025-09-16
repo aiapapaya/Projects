@@ -1,0 +1,17 @@
+ppyyt uuKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspacettKey.backspaceuutt  innttKey.backspaceKey.backspaceKey.backspacett  iinnttoo aa  wwoorrdd  ooKey.backspaceKey.backspaceddocc
+
+Key.ctrl_lKey.ctrl_l\x03\x03Key.cmdKey.cmdKey.left#Key.ctrl_lKey.ctrl_lKey.ctrl_lKey.ctrl_lKey.ctrl_lKey.ctrl_lKey.ctrl_l\x16
+#Key.ctrl_l\x03Key.ctrl_l\x16
+Key.up
+Key.ctrl_l\x03#Key.ctrl_l\x16
+Key.backspaceKey.backspace
+#converts key to a string and removes aKey.backspacesignle quoKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspacengle quotes from the string
+Key.tab//checks ifKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspace#checks if the pressed key is the space bar and if it is it replaces it with thKey.backspaceKey.backspacea space chaaKey.backspaceracter  ""Key.backspaceKey.backspace"" ""
+Key.backspace#if its the enter key utKey.backspaceKey.backspaceit replaces it with a newline character
+Key.backspace#since siKey.backspacehift key characters arent logged it replaces it with an empty string "" ""
+Key.tab""Key.backspace#try command attempts to open a file named log.db in append mode Key.shift_r"aKey.shift_r" Key.ctrl_l\x1a
+Key.backspace#Key.ctrl_l\x03Key.backspaceKey.backspaceKey.backspaceKey.backspace #Key.ctrl_l\x16 #writes cleaned keyh to fKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspace to file #if aKey.backspaceexc eptiKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceeptions found during fle pKey.backspaceoperations, prints error meKey.backspacesgKey.ctrl_l\x03
+#Key.ctrl_l\x16 creates a listener object that clKey.backspacealls the logKey.shift_r_presskey function whenever a key is pressed
+#as Key.caps_locklKey.caps_lockiseKey.backspacetener assigns the lKey.backspaceKey.caps_locklKey.caps_lockistener object to the var lsiteneKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceKey.backspaceistenerwhy is the file fKey.backspacedb
+
+Key.ctrl_l\x13
